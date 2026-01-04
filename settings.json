@@ -1,0 +1,16 @@
+{
+    // vim setup
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
+    "vim.ignorecase": true,
+    "vim.smartcase": true,
+    
+    // editor setup
+    "terminal.integrated.suggest.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.editor.empty.hint": "hidden",
+    "extensions.ignoreRecommendations": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all"
+}
