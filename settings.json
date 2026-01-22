@@ -18,4 +18,12 @@
     "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.cursorBlinking": "solid"
+
+    // editor setup
+    "workbench.colorCustomizations": {
+        "editor.background": "#0d0d0d",
+    },
+    "workbench.panel.defaultLocation": "right",
+    "editor.stickyScroll.enabled": false,
+    "terminal.integrated.stickyScroll.enabled": false
 }
