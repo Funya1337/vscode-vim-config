@@ -16,8 +16,8 @@
 
     // editor font family
     "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.cursorBlinking": "solid"
+    "editor.fontSize": 14,
+    "editor.fontLigatures": false,
 
     // editor setup
     "workbench.colorCustomizations": {
