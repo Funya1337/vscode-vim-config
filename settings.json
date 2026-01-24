@@ -6,24 +6,38 @@
     "vim.ignorecase": true,
     "vim.smartcase": true,
 
-    // editor setup
-    "terminal.integrated.suggest.enabled": false,
-    "workbench.startupEditor": "none",
-    "workbench.editor.empty.hint": "hidden",
-    "extensions.ignoreRecommendations": true,
+    // --- Core layout ---
+    "workbench.panel.defaultLocation": "right",
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": true,
+    "workbench.editor.showTabs":"multiple",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.sideBar.location": "left",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+
+    // --- Editor look ---
     "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
     "editor.renderWhitespace": "all",
 
-    // editor font family
+    // --- Editor font ---
     "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
     "editor.fontSize": 14,
     "editor.fontLigatures": false,
-
-    // editor setup
+    
+    // --- Colors ---
     "workbench.colorCustomizations": {
         "editor.background": "#0d0d0d",
     },
-    "workbench.panel.defaultLocation": "right",
-    "editor.stickyScroll.enabled": false,
-    "terminal.integrated.stickyScroll.enabled": false
+    
+    // --- Terminal ---
+    "terminal.integrated.stickyScroll.enabled": false,
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.defaultLocation": "view",
+    "terminal.integrated.suggest.enabled": false,
+
+    // --- Startup / noise ---
+    "workbench.startupEditor": "none",
+    "workbench.editor.empty.hint": "hidden",
+    "extensions.ignoreRecommendations": true
 }
