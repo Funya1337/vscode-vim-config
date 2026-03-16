@@ -51,7 +51,7 @@
     "debug.openExplorerOnEnd": true,
 
     // Terminal
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.defaultProfile.windows": "Git Bash", // should be removed for linux/mac
     "terminal.integrated.enablePersistentSessions": false,
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.hideOnStartup": "whenEmpty",
