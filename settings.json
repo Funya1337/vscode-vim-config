@@ -9,20 +9,18 @@
     "workbench.list.smoothScrolling": true,
     "terminal.integrated.smoothScrolling": true,
 
-    "editor.cursorSmoothCaretAnimation": "explicit",
-
     // Formatting, Whitespace, Text Behavior
     "files.eol": "\n",
-    "editor.renderWhitespace": "all",
     "diffEditor.ignoreTrimWhitespace": false,
 
     // Theme / Visual Settings
-    "editor.fontFamily": "Iosevka",
+    // "editor.fontFamily": "Iosevka",
+    "editor.fontFamily": "Iosevka, 'Courier New', monospace",
     "terminal.integrated.fontFamily": "Iosevka",
+    "editor.fontSize": 14,
 
     "workbench.colorCustomizations": {
-        "editor.background": "#0A0A0A",
-        "editor.selectionBackground": "#FFFFFF30"
+        "editor.background": "#0A0A0A"
     },
 
     "workbench.iconTheme": "file-icons",
@@ -51,7 +49,7 @@
     "debug.openExplorerOnEnd": true,
 
     // Terminal
-    "terminal.integrated.defaultProfile.windows": "Git Bash", // should be removed for linux/mac
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.enablePersistentSessions": false,
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.hideOnStartup": "whenEmpty",
@@ -83,13 +81,11 @@
     "security.workspace.trust.untrustedFiles": "open",
 
     // Chat / AI Controls
-    "chat.commandCenter.enabled": false,
     "chat.disableAIFeatures": true,
 
     // Extensions & Feature Toggles
     "extensions.ignoreRecommendations": true,
     "better-comments.multilineComments": true,
-    "dotnetAcquisitionExtension.suppressOutput": true,
 
     // Sync Ignored Settings
     "settingsSync.ignoredSettings": [
