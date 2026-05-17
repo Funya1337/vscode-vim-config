@@ -20,7 +20,9 @@
     "editor.fontSize": 14,
 
     "workbench.colorCustomizations": {
-        "editor.selectionBackground": "#6DBF6780"
+        "editor.selectionBackground": "#6DBF6780",
+        "editor.lineHighlightBackground": "#ffffff00",
+        "editor.lineHighlightBorder": "#ffffff46"
     },
 
     "workbench.iconTheme": "file-icons",
